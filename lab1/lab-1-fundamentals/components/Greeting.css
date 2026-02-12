@@ -1,0 +1,37 @@
+.greeting-container {
+padding: 40px; 
+background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+color: white; 
+border-radius: 10px; 
+max-width: 500px; 
+margin: 50px auto; 
+} 
+.greeting-container h1 { 
+font-size: 2.5em; 
+margin: 0; 
+animation: bounce 0.6s infinite; 
+} 
+.greeting-container p { 
+font-size: 1.1em; 
+margin: 15px 0; 
+} 
+.greeting-button { 
+background-color: white; 
+color: #667eea; 
+border: none; 
+padding: 12px 30px; 
+font-size: 1em; 
+border-radius: 5px; 
+cursor: pointer; 
+font-weight: bold; 
+transition: all 0.3s ease; 
+} 
+.greeting-button:hover { 
+background-color: #667eea; 
+color: white; 
+transform: scale(1.05); 
+} 
+@keyframes bounce { 
+  0%, 100% { transform: translateY(0); } 
+  50% { transform: translateY(-10px); } 
+}
