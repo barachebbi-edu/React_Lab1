@@ -11,6 +11,7 @@ function MovieList({ movies }) {
                     director={movie.director}
                     year={movie.year}
                     rating={movie.rating}
+                    poster={movie.poster}
                 />
             ))}
         </div>

@@ -15,10 +15,42 @@ function App() {
   const [count, setCount] = useState(0)
 
   const movies = [
-    { id: 1, title: "The Matrix", director: "Wachowski", year: 1999, rating: 4 },
-    { id: 2, title: "Inception", director: "Nolan", year: 2010, rating: 5 },
-    { id: 3, title: "The Dark Knight", director: "Nolan", year: 2008, rating: 5 },
-    { id: 4, title: "Interstellar", director: "Nolan", year: 2014, rating: 5 }
+    {
+      id: 1,
+      title: "The Matrix",
+      director: "Wachowski",
+      year: 1999,
+      rating: 4,
+      poster:
+        "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      id: 2,
+      title: "Inception",
+      director: "Nolan",
+      year: 2010,
+      rating: 5,
+      poster:
+        "https://images.unsplash.com/photo-1478720568477-152d9b164e26?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      id: 3,
+      title: "The Dark Knight",
+      director: "Nolan",
+      year: 2008,
+      rating: 5,
+      poster:
+        "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      id: 4,
+      title: "Interstellar",
+      director: "Nolan",
+      year: 2014,
+      rating: 5,
+      poster:
+        "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=900&q=80"
+    }
   ]
 
   return (
