@@ -1,0 +1,31 @@
+.movie-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+	margin: 24px 0;
+}
+
+.movie-card {
+	border: 1px solid #d0d0d0;
+	border-radius: 8px;
+	padding: 16px;
+	width: 240px;
+	background-color: #f7f7f7;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.movie-card:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
+}
+
+.movie-title {
+	margin: 0 0 8px;
+}
+
+.movie-director,
+.movie-year,
+.movie-rating {
+	margin: 6px 0;
+}

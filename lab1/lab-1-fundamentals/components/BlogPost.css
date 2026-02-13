@@ -1,0 +1,21 @@
+.blog-post {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+}
+
+.post-title {
+  margin-bottom: 15px;
+}
+
+.post-content {
+  margin: 15px 0;
+  font-size: 16px;
+}
+
+.post-date {
+  font-size: 14px;
+  color: gray;
+}

@@ -1,0 +1,25 @@
+/* components/ToggleButton.css */
+.toggle-container {
+  margin: 16px 0;
+}
+
+.toggle-btn {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: 1px solid #c0c0c0;
+  background: #f5f5f5;
+  cursor: pointer;
+}
+
+.toggle-text {
+  margin-top: 8px;
+  font-weight: 600;
+}
+
+.visible {
+  color: #1f8a3b;
+}
+
+.hidden {
+  color: #6b6b6b;
+}
